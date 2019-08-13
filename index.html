@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
     <title>Google</title>
   </head>
   <body>
     <header>
-      <ul>
+      <ul id="header">
         <li class="left">About</li>
         <li class="left">Store</li>
         <li class="right">Gmail</li>
@@ -22,16 +26,17 @@
       <img
         src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
         alt="google logo"
+        class="logo"
       />
       <form action="">
         <label for="search"></label>
-        <input type="text" name="search" />
+        <input type="text" name="search" id="search" />
       </form>
-      <button>Submit</button>
-      <button>Feeling Lucky</button>
+      <button type="submit" id="submit">Google Search</button>
+      <button id="lucky">I'm Feeling Lucky</button>
     </div>
     <footer>
-      <ul>
+      <ul id="footer">
         <li class="left">Advertising</li>
         <li class="left">Business</li>
         <li class="left">How Search works</li>

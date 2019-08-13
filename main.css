@@ -1,20 +1,75 @@
-header {
+#header {
   border: 1px solid black;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+* {
+  font-family: "Noto Sans", sans-serif;
 }
 
 #container {
-  padding: 0;
-  border: 1px solid black;
+  position: relative;
+  width: 33%;
+  height: 400px;
+  margin: 150px auto;
+  text-align: center;
+  display: block;
 }
 
-footer {
-  border: 1px solid black;
+.logo {
+  max-width: 50%;
+}
+
+form {
+  padding: 20px 10px 20px 10px;
+}
+
+button {
+  width: 130px;
+  height: 35px;
+  border-radius: 5px;
+  border-color: #edededb0;
+  background-color: #edededb0;
+  font-size: 0.8em;
+  color: #595959;
+}
+
+button:hover,
+input:hover {
+  border-color: #b5b5b5;
+}
+
+#submit {
+  margin-right: 5px;
+}
+
+#lucky {
+  margin-left: 5px;
+}
+
+input {
+  border-radius: 20px;
+  border: 0.5px solid #ededed;
+  width: 75%;
+  height: 35px;
+}
+
+#footer {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #edededb0;
+  color: #595959;
+  font-size: 0.9em;
 }
 
 li {
