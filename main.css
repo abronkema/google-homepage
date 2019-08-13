@@ -16,13 +16,13 @@
   position: relative;
   width: 100%;
   height: 400px;
-  margin: 150px auto;
+  margin: 200px auto;
   text-align: center;
   display: block;
 }
 
 .logo {
-  max-width: 50%;
+  max-width: 18%;
 }
 
 form {
@@ -32,16 +32,20 @@ form {
 button {
   width: 130px;
   height: 35px;
-  border-radius: 5px;
-  border-color: #edededb0;
+  border-radius: 3px;
+  border-color: #5a5a5a15;
   background-color: #edededb0;
   font-size: 0.8em;
   color: #595959;
 }
 
 button:hover,
-input:hover {
+input:hover,
+button:focus,
+input:focus {
   border-color: #b5b5b5;
+  font-weight: 700;
+  outline: none;
 }
 
 #submit {
