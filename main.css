@@ -46,6 +46,7 @@ input:focus {
   border-color: #b5b5b5;
   font-weight: 700;
   outline: none;
+  box-shadow: 5px 5px 5px #ededed;
 }
 
 #submit {
