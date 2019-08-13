@@ -1,3 +1,7 @@
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+
 #header {
   border: 1px solid black;
   list-style-type: none;
@@ -8,13 +12,9 @@
   width: 100%;
 }
 
-* {
-  font-family: "Noto Sans", sans-serif;
-}
-
 #container {
   position: relative;
-  width: 33%;
+  width: 100%;
   height: 400px;
   margin: 150px auto;
   text-align: center;
@@ -55,7 +55,7 @@ input:hover {
 input {
   border-radius: 20px;
   border: 0.5px solid #ededed;
-  width: 75%;
+  width: 33%;
   height: 35px;
 }
 
