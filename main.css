@@ -2,20 +2,9 @@
   font-family: "Noto Sans", sans-serif;
 }
 
-#header {
-  border: 1px solid black;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
 #container {
   position: relative;
   width: 100%;
-  height: 400px;
   margin: 200px auto;
   text-align: center;
   display: block;
@@ -66,6 +55,17 @@ input {
   font-size: 1.2em;
 }
 
+#header {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0 0 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #595959;
+  font-size: 0.8em;
+}
+
 #footer {
   list-style-type: none;
   margin: 0;
@@ -76,9 +76,25 @@ input {
   height: 40px;
   background-color: #edededb0;
   color: #595959;
-  font-size: 0.9em;
+  font-size: 0.8em;
+}
+
+.left {
+  float: left;
+  padding: 10px;
+}
+
+.right {
+  float: right;
+  padding: 10px 30px 10px 0;
 }
 
 li {
   display: inline;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 30px;
+  height: auto;
 }
