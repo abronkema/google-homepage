@@ -13,11 +13,13 @@ I've attempted to recreate Google's search homepage.
 ## What I need to work on
 
 1. I did not approach this as mobile first. It is also not responsive.
-2. I used floats in my header/footer where I should have used flexbox and/or grid to place items. I need to go back through the tutorials for Flexbox/Grid.
-3. I did not vertically align the text and the avatar image in the header.
-4. The page layout seems weird. The header, container and footer sections seem much larger on inspect than they should be. I assume it's a byproduct of not implementing flexbox/grid.
+2. ~~I used floats in my header/footer where I should have used flexbox and/or grid to place items. I need to go back through the tutorials for Flexbox/Grid.~~
+3. ~~I did not vertically align the text and the avatar image in the header.~~
+4. ~~The page layout seems weird. The header, container and footer sections seem much larger on inspect than they should be. I assume it's a byproduct of not implementing flexbox/grid.~~
 5. I could not figure out the apps dashboard icon thing. I was going to use a screenshot image placeholder, but it was blurry. I think there's an SVG or CSS shapes solution.
 
 ## Where I'll be going from here
 
-I'll be revisiting the Flexbox/Grid tutorials and will refactor this project.
+~~I'll be revisiting the Flexbox/Grid tutorials and will refactor this project.~~
+
+I'll revisit this again to make it responsive and maybe add some SVG or shapes for the app dashboard icon.
