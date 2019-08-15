@@ -4,47 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="nav.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap"
       rel="stylesheet"
     />
-    <title>Google</title>
+    <link rel="stylesheet" href="main.css" />
+    <title>Learning Flexbox</title>
   </head>
   <body>
     <header>
-      <ul id="header">
-        <li class="left">About</li>
-        <li class="left">Store</li>
-        <li class="right">
-          <img src="./assets/img_avatar.png" alt="profile" class="avatar" />
+      <ul id="container">
+        <li class="nav left">About</li>
+        <li class="nav left">Store</li>
+        <li class="nav first right">Gmail</li>
+        <li class="nav right">Images</li>
+        <li class="nav right">Dash</li>
+        <li class="nav right">
+          <img src="./assets/img_avatar.png" alt="profile" id="avatar" />
         </li>
-        <li class="right">DASH</li>
-        <li class="right">Images</li>
-        <li class="right">Gmail</li>
       </ul>
     </header>
-    <div id="container">
+    <div id="search_container">
       <img
         src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
         alt="google logo"
         class="logo"
       />
-      <form action="">
-        <label for="search"></label>
-        <input type="text" name="search" id="search" />
-      </form>
-      <button type="submit" id="submit">Google Search</button>
-      <button id="lucky">I'm Feeling Lucky</button>
+      <div class="form_container">
+        <form action="">
+          <label for="search"></label>
+          <input type="text" name="search" id="search" />
+        </form>
+        <button type="submit" id="submit">Google Search</button>
+        <button id="lucky">I'm Feeling Lucky</button>
+      </div>
     </div>
     <footer>
       <ul id="footer">
-        <li class="left">Advertising</li>
-        <li class="left">Business</li>
-        <li class="left">How Search works</li>
-        <li class="right">Settings</li>
-        <li class="right">Terms</li>
-        <li class="right">Privacy</li>
+        <li class="nav left">Advertising</li>
+        <li class="nav left">Business</li>
+        <li class="nav left">How Search works</li>
+        <li class="nav first right">Settings</li>
+        <li class="nav right">Terms</li>
+        <li class="nav right">Privacy</li>
       </ul>
     </footer>
   </body>
